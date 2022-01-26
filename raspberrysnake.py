@@ -16,8 +16,6 @@ def gameOver(screen):
     pygame.display.flip()
     sleep(3) 
     exit()
-    #我认为这里省略pygame.quit(),类似一个是把浏览器关掉后在关电脑，一个是直接关电脑
-    #这里的pygame就类似那个浏览器，只是它没有那么智能，并不会记忆
 
 #定义main函数
 def main():
